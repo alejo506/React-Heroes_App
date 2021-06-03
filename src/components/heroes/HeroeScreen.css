@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(250, 249, 250);
+}
+
+.card {
+    background: linear-gradient(90deg, rgba(69, 0, 4, 0.9475140397956058) 0%, rgba(1, 45, 87, 0.7682423311121324) 100%, rgba(255, 0, 0, 1) 100%);
+    overflow: hidden;
+    max-width: 950px;
+    /* margin:auto; */
+    margin-bottom: 0px;
+    width: auto;
+
+    /*Para que las letras no se salgan del contenedor agregamos el overflow:hidden al contenedor padre*/
+}
+
+/*--------------------------------------------*/
+
+.list-group-item {
+    color: lavenderblush
+}
+
+p {
+    color: lavenderblush;
+}
+
+button {
+    color: #FBFBFB;
+ 
+    background-color: transparent;
+}
+
+button:hover{
+    background: #F8F9FA;
+  color: black;
+  border-color: #F8F9FA;
+}
+
+li {
+    background: linear-gradient(90deg, rgba(71, 44, 59, 1) 0%, rgba(1, 45, 87, 0.7682423311121324) 100%, rgba(255, 0, 0, 1) 100%);
+}
+
+h5 {
+    color: lavenderblush;
+}
+.mov-izq-der, .card-title {
+    animation-name: movi-izqu-dere;
+    animation-duration: 2s;
+}
+
+@keyframes movi-izqu-dere {
+    from {
+        transform: translateX(400px);
+        color: #3E516D;
+        overflow: hidden;
+        border-color: transparent;
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+/*--------------------------------------------*/
+
+
+/*--------------------------------------------*/
+
+.img-card img {
+    padding: 0px;
+    filter: saturate(180%);
+    animation-name: borroso;
+    animation-duration: 2s;
+    width: 950px;
+}
+
+@keyframes borroso {
+    from {
+        opacity: 0;
+        filter: none;
+        
+    }
+    to {
+        opacity: 1;
+        filter: saturate(180%);
+        
+    }
+}
+
+/*--------------------------------------------*/

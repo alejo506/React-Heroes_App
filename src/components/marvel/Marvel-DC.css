@@ -1,0 +1,39 @@
+
+.marvel-logo{
+    min-width: 12.5rem;
+    max-width: 56.25rem;
+    max-height: 70vh;
+
+    /*Centramos la imagen con la propiedad display y margin*/
+    display:block;
+    margin:0.625rem auto;
+    overflow:hidden;
+    
+}
+
+.marvel-logo:hover .card-img {
+    filter: blur(1px);
+}
+
+.dc-logo{
+    min-width: 12.5rem;
+    max-width: 31rem;
+    max-height: 70vh;
+    margin:1.25rem auto;  
+} 
+
+.dc-logo:hover .card-img {
+    filter: blur(1px);
+}
+/* .titulo{
+    display: inline-block;
+    vertical-align: middle;
+    color: #0c7cec;
+
+} */
+
+    
+
+
+
+

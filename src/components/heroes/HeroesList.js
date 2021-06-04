@@ -15,7 +15,7 @@ export const HeroesList = ({publisher}) => { //Recibimos el publisher desde DCSc
         
         //    <div className="row row-cols-md-3  ">
 <div className="container">
-  <div className="row row-cols-auto row-cols-lg-3 g-auto g-lg-3 row-cols-xl-4 g-xl-auto row-cols-xs-2 g-xs-2 animate__animated animate__fadeIn d-flex justify-content-center">
+  <div className="row row-cols-auto row-cols-lg-3 g-auto g-lg-3 row-cols-xl-4 g-xl-auto row-cols-xs-2 g-xs-2 animate__animated animate__fadeIn">
     
 
             {/*Ahora barremos cada uno de los elementos para mostrarlos en pantalla */}

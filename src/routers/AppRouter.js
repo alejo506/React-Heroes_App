@@ -18,7 +18,7 @@ export const AppRouter = () => {
 
     // Nos vamos a components en el navegador y nos dirigimos a HeroesApp y ahí nos daremos cuenta si está autenticado o no, para hacer eso vamos a hacer el useContext
     const {user} = useContext(AuthContext);
-    console.log(user);
+    // console.log(user);
 
     return (
         <Router>

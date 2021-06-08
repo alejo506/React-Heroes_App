@@ -61,7 +61,7 @@ export const SearchScreen = ({ history }) => {//1.QueryString. Hacemos el histor
             <hr />
 
             <div className="row">
-                <div className="col-6">
+                <div className="col-10">
 
                     <h4>Search form</h4>
                     <hr />

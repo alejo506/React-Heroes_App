@@ -3,6 +3,16 @@ import { Redirect, useHistory, useParams } from 'react-router'
 import { getHeroeById } from '../../selectors/getHeroeById';
 import './HeroeScreen.css';
 
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Video 212 Trabajando con imagenes
+//Esta es una manera de trabajar con imagenes con contenido estático( es decir no cambian ). El problema es que las imagenes tienen que cambiar con base a su heroeId(dinamicamente)
+// import batman from '../../assets/heroes/dc-batman.jpg';
+
+import { heroImages } from '../../helpers/heroImages';
+//Para hacer renderizar las imagenes de manera dinamica desde la carpeta "src"
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 //Necesitamos extraer los id enviados el componente HeroeCard.js por el URL
 //Con este CustomHook extraeremos los parametros que vayan por el URL
 export const HeroeScreen = ({ history }) => { //Esta propiedad la extraemos de HeroScreen, ir a la pestaña componets desde el navegador y al final HeroeScreen. utilizaremos el history para devolvernos a la página anterior
@@ -57,7 +67,9 @@ export const HeroeScreen = ({ history }) => { //Esta propiedad la extraemos de H
             <div className="row g-0">
                 <div className="col-md-4 col-md-auto col-sm-12  img-card animacion">
                     <img
-                        src={`../assets/heroes/${heroeId}.jpg`}
+                        // src={`../assets/heroes/${heroeId}.jpg`} //Desde public/assets. Si tenemos las imagenes en el directorio public utilizamos este código
+                        // src={batman}// Esto es cuando tenemos un import. Estatico
+                        src={ heroImages(`./${heroeId}.jpg`).default } // Para mostrar las imagenes de forma dinamica con el require.context. Como estamos trabajando con imagenes se agrega el default
                         className="img-thumbnail"
                         
                         />

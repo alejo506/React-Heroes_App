@@ -7,11 +7,12 @@ import { SearchScreen } from '../components/search/SearchScreen'
 import { Footer } from '../components/ui/Footer'
 import { Navbar } from '../components/ui/Navbar'
 
-export const DashboardRoutes = () => {
+export const DashboardRoutes = (/*{history}*/) => {
     return (
         <> {/*Este fragment se agrega porque hay más de un elemento html, hay un <Navbar/> y el <div/> */}
          
-          <Navbar/>
+         <Navbar /*history={history}*/ /> {/*Se pasa el history al Navbar para utilizar la propiedad "history". Solo que en lugar de hacer esto, utilizamos el customHook useHistory en el ui/Navbar.*/}
+         
           
             <div className="container mt-2">
                 <Switch>
@@ -24,7 +25,7 @@ export const DashboardRoutes = () => {
 
                     {/* Si no nos encontramos en alguna de la rutas anteriores(marvel,heroe/:heroeID o dc) entonces nos redireccione a path de marvel */}
                  {/*El Redirect también se puede utilizar para validaciones, por ejemplo, si algo no viene entonces que llame al Redirect  */}
-                  <Redirect to="/marvel"/>
+                  <Redirect to="/marvel" />
                  
                 </Switch>  
             </div>  

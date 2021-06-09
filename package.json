@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/alejo506/Heroes-App_React",
+  "homepage": "https://alejo506.github.io/Heroes-App_React",
   "name": "heroes-app",
   "version": "0.1.0",
   "private": true,
@@ -26,7 +26,9 @@
     "eject": "react-scripts eject",
     "prebuild": "rimraf dist",
     "predeploy" : "npm run build" ,
-    "deploy" : "gh-pages -d build"
+    "deploy" : "gh-pages -d build",
+    "build-and-docs": "react-scripts build && node create-docs.js"
+    
   },
   "eslintConfig": {
     "extends": [

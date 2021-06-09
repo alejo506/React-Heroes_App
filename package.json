@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": ".",
+=======
+  "homepage": "https://alejo506.github.io/ReactJS_hero_app",
+>>>>>>> 65627fccba18cb1d8efbe71154f461ed5b846b24
   "name": "heroes-app",
   "version": "0.1.0",
   "private": true,

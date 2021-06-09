@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import {
     BrowserRouter as Router,
+    HashRouter,
     Switch,
     // Route
 
@@ -21,8 +22,10 @@ export const AppRouter = () => {
     // console.log(user);
 
     return (
-        <Router>
+        <HashRouter>
+        {/* <Router> */}
             <div>
+
 
                 <Switch>
 
@@ -42,6 +45,7 @@ export const AppRouter = () => {
                
                 </Switch>
             </div>
-        </Router>
+        {/* </Router> */}
+                    </HashRouter>
     )
 }

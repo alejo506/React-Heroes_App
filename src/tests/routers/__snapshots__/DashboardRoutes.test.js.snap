@@ -1,0 +1,595 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <DashboardRoutes debe de mostrarse correctamente  1`] = `
+Array [
+  " ",
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark"
+  >
+    <div
+      className="container-fluid"
+    >
+      <div
+        className="nav-item "
+      >
+        <a
+          className="navbar-brand nav-link"
+          href="/"
+          onClick={[Function]}
+          style={
+            Object {
+              "marginLeft": 15,
+            }
+          }
+        >
+          Asociaciones
+        </a>
+      </div>
+      <button
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler"
+        data-bs-target="#navbarSupportedContent"
+        data-bs-toggle="collapse"
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <ul
+          className="navbar-nav me-auto mb-1 mb-lg-0"
+        >
+          <div
+            className="nav-item "
+          >
+            <a
+              aria-current="page"
+              className="nav-link active"
+              href="/marvel"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              Marvel
+            </a>
+          </div>
+          <div
+            className="nav-item "
+          >
+            <a
+              aria-current={null}
+              className="nav-link"
+              href="/dc"
+              onClick={[Function]}
+            >
+              DC
+            </a>
+          </div>
+          <div
+            className="nav-item"
+          >
+            <a
+              aria-current={null}
+              className="nav-link"
+              href="/search"
+              onClick={[Function]}
+            >
+              Search
+            </a>
+          </div>
+        </ul>
+        <div
+          className="nav-item dropdown "
+        >
+          <a
+            aria-expanded="false"
+            className="navbar-brand nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            id="navbarDarkDropdownMenuLink"
+            role="button"
+          >
+            <lord-icon
+              colors="primary:#e4e4e4,secondary:#e4e4e4"
+              src="https://cdn.lordicon.com/dxjqoygy.json"
+              stroke="60"
+              style={
+                Object {
+                  "height": 38,
+                  "width": 38,
+                }
+              }
+              trigger="hover"
+            />
+             
+          </a>
+          <ul
+            aria-labelledby="navbarDarkDropdownMenuLink"
+            className="dropdown-menu dropdown-menu-dark"
+          >
+            <span
+              className="ms-3 textInfo"
+              style={
+                Object {
+                  "color": "#5cb85c",
+                }
+              }
+            >
+               
+              Natasha
+               
+            </span>
+            <button
+              className="dropdown-item"
+              onClick={[Function]}
+            >
+              Logout
+            </button>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>,
+  " ",
+  <div
+    className="container mt-2"
+  >
+    <div>
+      <div
+        className="contenedorPadre "
+      >
+        <div
+          className="marvel-logo animate__animated animate__pulse"
+        >
+           
+          <img
+            className="card-img"
+          />
+           
+        </div>
+      </div>
+      <hr />
+      <div
+        className="container"
+      >
+        <div
+          className=" row row-cols-1 row-cols-md-2 g-4 g-lg-3 row-cols-xl-4 g-xl-auto row-cols-xs-2 g-xs-2 animate__animated animate__fadeIn"
+        >
+          <a
+            href="/hero/marvel-spider"
+            onClick={[Function]}
+          >
+             
+            <div
+              className="card my-card "
+            >
+              <img
+                alt="Spider Man"
+                className="card-img"
+              />
+              <div
+                className="profile-name"
+              >
+                Spider Man
+              </div>
+              <div
+                className="profile-position"
+              >
+                Peter Parker
+              </div>
+              <div
+                className="profile-overview"
+              >
+                <div
+                  className="profile-overview"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    Amazing Fantasy #15
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/hero/marvel-captain"
+            onClick={[Function]}
+          >
+             
+            <div
+              className="card my-card "
+            >
+              <img
+                alt="Captain America"
+                className="card-img"
+              />
+              <div
+                className="profile-name"
+              >
+                Captain America
+              </div>
+              <div
+                className="profile-position"
+              >
+                Steve Rogers
+              </div>
+              <div
+                className="profile-overview"
+              >
+                <div
+                  className="profile-overview"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    Captain America Comics #1
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/hero/marvel-iron"
+            onClick={[Function]}
+          >
+             
+            <div
+              className="card my-card "
+            >
+              <img
+                alt="Iron Man"
+                className="card-img"
+              />
+              <div
+                className="profile-name"
+              >
+                Iron Man
+              </div>
+              <div
+                className="profile-position"
+              >
+                Tony Stark
+              </div>
+              <div
+                className="profile-overview"
+              >
+                <div
+                  className="profile-overview"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    Tales of Suspense #39
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/hero/marvel-thor"
+            onClick={[Function]}
+          >
+             
+            <div
+              className="card my-card "
+            >
+              <img
+                alt="Thor"
+                className="card-img"
+              />
+              <div
+                className="profile-name"
+              >
+                Thor
+              </div>
+              <div
+                className="profile-position"
+              >
+                Thor Odinson
+              </div>
+              <div
+                className="profile-overview"
+              >
+                <div
+                  className="profile-overview"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    Journey into Myster #83
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/hero/marvel-hulk"
+            onClick={[Function]}
+          >
+             
+            <div
+              className="card my-card "
+            >
+              <img
+                alt="Hulk"
+                className="card-img"
+              />
+              <div
+                className="profile-name"
+              >
+                Hulk
+              </div>
+              <div
+                className="profile-position"
+              >
+                Bruce Banner
+              </div>
+              <div
+                className="profile-overview"
+              >
+                <div
+                  className="profile-overview"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    The Incredible Hulk #1
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/hero/marvel-wolverine"
+            onClick={[Function]}
+          >
+             
+            <div
+              className="card my-card "
+            >
+              <img
+                alt="Wolverine"
+                className="card-img"
+              />
+              <div
+                className="profile-name"
+              >
+                Wolverine
+              </div>
+              <div
+                className="profile-position"
+              >
+                James Howlett
+              </div>
+              <div
+                className="profile-overview"
+              >
+                <div
+                  className="profile-overview"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    The Incredible Hulk #180
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/hero/marvel-daredevil"
+            onClick={[Function]}
+          >
+             
+            <div
+              className="card my-card "
+            >
+              <img
+                alt="Daredevil"
+                className="card-img"
+              />
+              <div
+                className="profile-name"
+              >
+                Daredevil
+              </div>
+              <div
+                className="profile-position"
+              >
+                Matthew Michael Murdock
+              </div>
+              <div
+                className="profile-overview"
+              >
+                <div
+                  className="profile-overview"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    Daredevil #1
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/hero/marvel-hawkeye"
+            onClick={[Function]}
+          >
+             
+            <div
+              className="card my-card "
+            >
+              <img
+                alt="Hawkeye"
+                className="card-img"
+              />
+              <div
+                className="profile-name"
+              >
+                Hawkeye
+              </div>
+              <div
+                className="profile-position"
+              >
+                Clinton Francis Barton
+              </div>
+              <div
+                className="profile-overview"
+              >
+                <div
+                  className="profile-overview"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    Tales of Suspense #57
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/hero/marvel-cyclops"
+            onClick={[Function]}
+          >
+             
+            <div
+              className="card my-card "
+            >
+              <img
+                alt="Cyclops"
+                className="card-img"
+              />
+              <div
+                className="profile-name"
+              >
+                Cyclops
+              </div>
+              <div
+                className="profile-position"
+              >
+                Scott Summers
+              </div>
+              <div
+                className="profile-overview"
+              >
+                <div
+                  className="profile-overview"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    X-Men #1
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="/hero/marvel-silver"
+            onClick={[Function]}
+          >
+             
+            <div
+              className="card my-card "
+            >
+              <img
+                alt="Silver Surfer"
+                className="card-img"
+              />
+              <div
+                className="profile-name"
+              >
+                Silver Surfer
+              </div>
+              <div
+                className="profile-position"
+              >
+                Norrin Radd
+              </div>
+              <div
+                className="profile-overview"
+              >
+                <div
+                  className="profile-overview"
+                >
+                  <h3>
+                    Marvel Comics
+                  </h3>
+                  <p>
+                    Primera aparición: 
+                    <br />
+                    The Fantastic Four #48
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+       
+    </div>
+  </div>,
+  <footer
+    className="bg-dark text-center text-white"
+    style={
+      Object {
+        "bottom": 0,
+        "marginTop": 233,
+      }
+    }
+  >
+    <div
+      className="text-center p-3"
+      style={
+        Object {
+          "backgroundColor": "#000000",
+          "opacity": 0.2,
+        }
+      }
+    >
+      © 2021 Copyright:
+      <a
+        className="text-white ms-1"
+        href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+      >
+         Alejandro CM
+      </a>
+    </div>
+  </footer>,
+]
+`;

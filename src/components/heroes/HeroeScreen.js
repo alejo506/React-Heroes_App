@@ -30,6 +30,12 @@ export const HeroeScreen = ({ history }) => { //Esta propiedad la extraemos de H
     //useMemo. Si el heroeId no cambia no tiene porque volver a generar o ejecutar este codigo
     const hero = useMemo(() => getHeroeById(heroeId), [heroeId]);
 
+    //-------------------------------------------------
+    //Video 205. Pruebas del componente HeroeScreen.
+    // console.log("hero:",hero, 'heroId:',heroeId);
+    //-------------------------------------------------
+
+
     if (!hero) { //Si hero no existe "undefined" entonces obligatoriamente tiene que retornar algo, en este caso retorna el componente <Redirect to="/"/> para que redireccione a la pagina de Marvel
         return <Redirect to="/" />
     }
@@ -38,6 +44,7 @@ export const HeroeScreen = ({ history }) => { //Esta propiedad la extraemos de H
 
     const handleBack = () => { //Necesitaremos la propiedad history -> goBack
 
+        //Esta condicional es porque si copio el url y abro una nueva pestaña en Chrome y lo pego lo que pasa es que cuando toque el boton Back nos devuelve a la pagina anterior, si la pagina anterior fue Chrome entonces nos devuelve a Chrome, esta validación lo que hace es que si hacemos todo lo anterior de copiar y pegar en el navegador el url y le damos en el boton Back, nos devuelve a la pagina de marvel 
         //Primera forma de hacer que vuelva a la pagina anterior cuando estamos navegando en incognito, pero la mejor manera de hacerlo es utilizando el customHook de history ,ver en la segunda forma 
         if(history.length <= 2){ //Si la longitud del historial es menor a 2, osea, es 1 entonces redirige a marvel
             history.push('/');

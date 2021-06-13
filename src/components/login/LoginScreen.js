@@ -11,6 +11,7 @@ export const LoginScreen = ({ history }) => { //Este history es una de las propi
         name: 'alejandro'
     }
 
+    console.log('Click!!!!');
     //Implementamos el metodo handleLogin
     const handleLogin = () => {
 

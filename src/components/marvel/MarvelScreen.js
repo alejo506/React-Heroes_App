@@ -3,12 +3,13 @@ import React from 'react';
 import { HeroesList } from '../heroes/HeroesList';
 import '../marvel/Marvel-DC.css';
 
+
 //Como el Logo de Marvel es estático utilizamos el import en lugar de heroImages(este se importa desde heroeScreen)
-import marvel from '../../assets/heroes/marvel-logo.png';
+// import marvel from '../../assets/heroes/marvel-logo.png';
+import { heroImages } from '../../helpers/heroImages';
 
 
 export const MarvelScreen = () => {
-
 
     return (
         <div>
@@ -18,7 +19,7 @@ export const MarvelScreen = () => {
 
                 <div className="marvel-logo animate__animated animate__pulse">
                     {/* <img src={`./assets/heroes/marvel-logo.png`} className="card-img" /> */} {/*Esto se utiliza cuando la imagen está en public/assets/heroes */}
-                    <img src={marvel} className="card-img" /> {/*Imagen estatica desde la carpeta "src" utilizamos el import */}
+                    <img src={heroImages(`./marvel-logo.png`).default} className="card-img" /> {/*Imagen estatica desde la carpeta "src" utilizamos el import */}
 
                 </div>
             </div>

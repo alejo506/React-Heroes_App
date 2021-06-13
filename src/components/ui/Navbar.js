@@ -11,12 +11,14 @@ export const Navbar = () => { //En Navbar no se puede utilizar el {history} ya q
     const { user: { name }, dispatch } = useContext(AuthContext);
     
     
-    const {push} =useHistory();
+    const {replace} =useHistory();
 
     //Hacemos el Logout
     const handleLogout= ()=>{
         
-        push('/login');
+        console.log('Click!');//Video 204.Cuando simulamos el evento click al hacer las pruebas del componente Nvbar, utilizamos este console para ver la simulacion del onClick
+        
+        replace('/login');
 
         dispatch({
             type: types.logout
@@ -92,7 +94,7 @@ export const Navbar = () => { //En Navbar no se puede utilizar el {history} ya q
                         </a>
                         <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
 
-                            <span className="ms-3" style={{color:"#5cb85c"}}> {name} {/*Esto es para agregar el nombre del user logueado a la par del iconUser*/}</span>
+                            <span className="ms-3 textInfo" style={{color:"#5cb85c"}}> {name} {/*Esto es para agregar el nombre del user logueado a la par del iconUser*/}</span>
                             <button
                                 
                                 className="dropdown-item"

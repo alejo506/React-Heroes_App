@@ -76,7 +76,7 @@ export const SearchScreen = ({ history }) => {//1.QueryString. Hacemos el histor
                             aria-label="Search"
                             autoComplete="off"
                             name="searchText"
-                            values={searchText}
+                            value={searchText}
                             onChange={handledInputChange}
                         />
                         <button
